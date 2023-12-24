@@ -1,0 +1,181 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.profile {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    background-color: #e7e7e7;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+.links a:hover {
+    background-color: #d7d7d7;
+}
+
+.about {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.name {
+    margin-top: 0.05em;
+    margin-bottom: 0.1em; 
+}
+
+.subtext {
+    margin-top: 0.1em; /* Adjust this value to reduce the space */
+    /* Other styles for your subtext */
+    line-height: 1.2; /* Adjust line-height if necessary */
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* other styles for your about section */
+}
+
+.rainbow-text {
+    background: linear-gradient(45deg, red, orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    font-size: 1.5em;
+    text-align: left; /* Align text to the left */
+    margin-top: 1px;
+    margin-bottom: 20px; /* Adjust this value to control the space below the title */
+}
+
+/* Style for the paragraph or other content in your about section */
+.about-section p {
+    margin-top: 0; /* You can adjust this value to reduce the space between the title and the paragraph */
+    /* other styles for your paragraph */
+}
+
+/* ... other CSS styles ... */
+
+.business-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* other styles for your section */
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1; /* Each column will take up equal space */
+    padding: 0 10px; /* Adds some space between the columns */
+}
+
+.column h3 {
+    color: #333;
+    /* Add any other styles for the sub-headings */
+}
+
+/* Style for the bullet points */
+.column ul {
+    padding: 0;
+    list-style-type: none; /* Removes default bullet style */
+}
+
+.column li {
+    padding-left: 1.4em;
+    text-indent: -1.4em;
+}
+
+.column li:before {
+    content: '• '; /* Adds a custom bullet */
+    color: red; /* Color for the bullet */
+    font-weight: bold; /* Makes the bullet bold */
+}
+
+.work-header {
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.list {
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    margin-top: 8px;
+}
+
+.memory-gallery-title {
+    text-align: center;
+    font-size: 2em; /* Example font size */
+    font-family: 'Courier New', monospace;
+}
+
